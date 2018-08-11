@@ -26,7 +26,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class PublicUtil {
-    private static final String APP_NAME = "BuslineTask";
+    private static final String APP_NAME = "TakePhotoTask";
 
     private static final String PIC = "pics";
 
