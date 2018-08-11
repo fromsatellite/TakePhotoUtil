@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 控件是dp,字体是sp,细线是px:以8开始 -->
+    <!-- margin -->
+    <dimen name="margin_tiny">2dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_normal">6dp</dimen>
+    <dimen name="margin_big">8dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="margin_larger">15dp</dimen>
+    <dimen name="margin_huge">20dp</dimen>
+
+    <!-- padding -->
+    <dimen name="padding_tiny">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">6dp</dimen>
+    <dimen name="padding_big">8dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_larger">15dp</dimen>
+    <dimen name="padding_huge">20dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="text_tiny">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+
+    <!-- 设置一些控件的固定高度 -->
+    <dimen name="const_height_tiny">20dp</dimen>
+    <dimen name="const_height_small">30dp</dimen>
+    <dimen name="const_height_normal">40dp</dimen>
+    <dimen name="const_height_big">50dp</dimen>
+    <dimen name="const_height_large">60dp</dimen>
+    <dimen name="const_height_larger">70dp</dimen>
+    <dimen name="const_height_huge">80dp</dimen>
+    <dimen name="const_width_tiny">10dp</dimen>
+    <dimen name="const_width_small">15dp</dimen>
+    <dimen name="const_width_normal">20dp</dimen>
+    <dimen name="const_width_big">30dp</dimen>
+    <dimen name="const_width_large">40dp</dimen>
+    <dimen name="const_width_larger">50dp</dimen>
+    <dimen name="const_width_huge">60dp</dimen>
+    <!-- 弧度 -->
+    <dimen name="radius">10px</dimen>
+    <dimen name="radius_edge_width_1">1px</dimen>
+    <dimen name="radius_edge_width_2">2px</dimen>
+    <dimen name="view_line_height">1px</dimen>
+    <dimen name="view_line_width">2px</dimen>
+    <dimen name="view_line_height_5">5px</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

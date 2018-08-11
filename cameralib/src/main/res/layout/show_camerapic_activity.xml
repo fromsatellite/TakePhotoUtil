@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#000000">
+    <RelativeLayout
+        android:id="@+id/camera_app"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <ImageView
+            android:id="@+id/camera_pic_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/camera_choose_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:background="#33000000"
+        android:gravity="fill_horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/camera_cancle_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+             android:orientation="horizontal"
+            android:layout_alignParentLeft="true">
+            <Button
+                android:id="@+id/camera_cancle_btn"
+                android:layout_centerInParent="true"
+                android:layout_width="32dp"
+                android:layout_height="50dp"                         
+                android:background="@drawable/btn_retakepic_selector" >
+            </Button>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/camera_ok_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+             <Button
+                android:id="@+id/camera_ok_btn"
+                android:layout_centerInParent="true"
+                android:layout_width="32dp"
+                android:layout_height="50dp"                         
+                android:background="@drawable/btn_usepic_selector" >
+            </Button>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

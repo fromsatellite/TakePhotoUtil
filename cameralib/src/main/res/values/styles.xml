@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="cameraSettingsCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/xml_camera_checkbox</item>
+    </style>
+
+</resources>

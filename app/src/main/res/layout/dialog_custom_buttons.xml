@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_huge"
+    android:background="@drawable/layout_corner_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_huge"
+        android:text="确定退出？"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_normal" />
+
+    <include layout="@layout/view_line" >
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_large"
+            android:text="取消"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/text_large" />
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="@dimen/view_line_height"
+            android:layout_height="match_parent"
+            android:background="@color/view_line" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_large"
+            android:text="确定"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/text_large" />
+    </LinearLayout>
+
+</LinearLayout>
