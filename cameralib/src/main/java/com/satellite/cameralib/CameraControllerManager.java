@@ -691,10 +691,13 @@ public class CameraControllerManager extends AbstractCameraControllerManager {
             exifInterface.saveAttributes();
             return true;
         }
+        // TODO saveAttributes()默认抛出IOException，运行时会报错:
+        // java.lang.UnsupportedOperationException: ExifInterface only supports saving attributes on JPEG formats.
 //        catch (IOException var4) {
 //            var4.printStackTrace();
 //            return false;
 //        }
+        // TODO 暂时解决方案：修改为catch (Exception)可正常运行
         catch (Exception var4) {
             var4.printStackTrace();
             return false;
